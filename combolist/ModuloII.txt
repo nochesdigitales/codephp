@@ -1,0 +1,34 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tiempo de generación: 07-05-2015 a las 02:19:41
+-- Versión del servidor: 5.0.51
+-- Versión de PHP: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Base de datos: `ModuloII`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `alumno`
+-- 
+
+CREATE TABLE `alumno` (
+  `cedula` varchar(15) collate utf8_unicode_ci NOT NULL,
+  `sexo` varchar(30) collate utf8_unicode_ci NOT NULL,
+  `edocivil` varchar(20) collate utf8_unicode_ci NOT NULL,
+  `pais` varchar(20) collate utf8_unicode_ci NOT NULL,
+  PRIMARY KEY  (`cedula`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- 
+-- Volcar la base de datos para la tabla `alumno`
+-- 
